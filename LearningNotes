@@ -1,2 +1,7 @@
 # sql知识
-123123adfasdfasfsf
+
+SELECT t.TABLE_NAME,t.TABLE_COMMENT,c.COLUMN_NAME,c.COLUMN_TYPE,c.COLUMN_COMMENT FROM information_schema.TABLES t,INFORMATION_SCHEMA.Columns c WHERE c.TABLE_NAME=t.TABLE_NAME AND t.`TABLE_SCHEMA`='db_ocean'
+SELECT t.TABLE_NAME,t.TABLE_COMMENT FROM information_schema.TABLES t WHERE t.`TABLE_SCHEMA`='db_ocean'
+
+http://findjar.com/
+https://mvnrepository.com/
