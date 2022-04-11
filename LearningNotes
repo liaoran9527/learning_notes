@@ -5,5 +5,3 @@ SELECT t.TABLE_NAME,t.TABLE_COMMENT FROM information_schema.TABLES t WHERE t.`TA
 
 http://findjar.com/
 https://mvnrepository.com/
-
-d
